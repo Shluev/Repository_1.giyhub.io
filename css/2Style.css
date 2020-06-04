@@ -1,0 +1,99 @@
+*{margin:0px;
+padding:0px;	
+}
+
+
+#main-panel{
+	background-color:#ceddf3;
+	display:flex;
+	justify-content:space-between;
+	padding:20px;
+	background-image: linear-gradient(to bottom left, #FFFFFF 0%, #3366FF 100%);
+}
+#chat-panel{padding:10px;
+	display:flex;
+	flex-direction:row;
+	background-image: linear-gradient(to top left, #FFFFFF 0%, #0AEDF5 50%, #3366FF 100%);
+	}
+#main-panel p{
+	font-family:Arial;
+	font-size:20px;
+	color:#1A153F;	
+}
+.t{color:#230D21;	
+	margin-left:20px;
+	margin-right:20px;
+	font-family:Arial;
+	font-size:30pt;
+	
+}
+.t1{margin-left:20px;
+	font-family:Arial;
+	font-size:20pt;
+	
+}
+.t2{margin-left:20px;
+	font-family:Arial;
+	font-size:15pt;
+	color:#FCDD76;	
+	
+}
+#chat-p1{
+	
+	padding:20px;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+#chat-p2{
+	background-image:url(../images/harry.png);
+	background-position:bottom;
+	background-repeat:repeat-x;
+	padding:20px;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+#chat-p3{
+	background-image:url(../images/snitch.png);
+	background-position:bottom;
+	background-repeat:repeat-y;
+	background-color:#Aae5f1;
+	padding:20px;
+	display:flex;
+	flex-direction:column;
+	align-items:flex-start;	}
+
+#chat-p4{
+	background-image:url(../images/chat_background.jpg);
+	background-attachment:fixed;
+	background-size:cover;
+	padding:20px;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+.inform{margin:10px;
+		padding:10px;
+		border-radius:10px;
+		background-color:#A6CAF0;
+		font-size:15pt;
+		color:#75151E;
+		align-self:center;
+	
+}
+.chat{margin:10px;
+		padding:10px;
+		border-radius:10px;
+		background-color:#A6CAF0;
+		color:#FCDD76;
+		align-self:flex-start;
+		max-width:800px;
+		font-size:15pt;
+
+}
+.time{margin:10px;
+		padding:10px 20px;
+		border-radius:10px;
+		background-color:#A6CAF0;
+		color:#00336
